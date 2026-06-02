@@ -1,0 +1,543 @@
+{
+  "settings": {
+    "unit": "lb",
+    "defaultRest": 120
+  },
+  "exercises": [
+    {
+      "id": "x_barbell_bench_press",
+      "name": "Barbell Bench Press",
+      "muscle": "Chest",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_incline_barbell_bench_press",
+      "name": "Incline Barbell Bench Press",
+      "muscle": "Chest",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_dumbbell_bench_press",
+      "name": "Dumbbell Bench Press",
+      "muscle": "Chest",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_incline_dumbbell_press",
+      "name": "Incline Dumbbell Press",
+      "muscle": "Chest",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_machine_chest_press",
+      "name": "Machine Chest Press",
+      "muscle": "Chest",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_cable_fly",
+      "name": "Cable Fly",
+      "muscle": "Chest",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_pec_deck",
+      "name": "Pec Deck",
+      "muscle": "Chest",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_push_up",
+      "name": "Push-Up",
+      "muscle": "Chest",
+      "equipment": "Bodyweight",
+      "seed": true
+    },
+    {
+      "id": "x_chest_dip",
+      "name": "Chest Dip",
+      "muscle": "Chest",
+      "equipment": "Bodyweight",
+      "seed": true
+    },
+    {
+      "id": "x_deadlift",
+      "name": "Deadlift",
+      "muscle": "Back",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_barbell_row",
+      "name": "Barbell Row",
+      "muscle": "Back",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_pendlay_row",
+      "name": "Pendlay Row",
+      "muscle": "Back",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_pull_up",
+      "name": "Pull-Up",
+      "muscle": "Back",
+      "equipment": "Bodyweight",
+      "seed": true
+    },
+    {
+      "id": "x_chin_up",
+      "name": "Chin-Up",
+      "muscle": "Back",
+      "equipment": "Bodyweight",
+      "seed": true
+    },
+    {
+      "id": "x_lat_pulldown",
+      "name": "Lat Pulldown",
+      "muscle": "Back",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_seated_cable_row",
+      "name": "Seated Cable Row",
+      "muscle": "Back",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_t_bar_row",
+      "name": "T-Bar Row",
+      "muscle": "Back",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_dumbbell_row",
+      "name": "Dumbbell Row",
+      "muscle": "Back",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_face_pull",
+      "name": "Face Pull",
+      "muscle": "Back",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_straight_arm_pulldown",
+      "name": "Straight-Arm Pulldown",
+      "muscle": "Back",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_overhead_press",
+      "name": "Overhead Press",
+      "muscle": "Shoulders",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_seated_dumbbell_shoulder_press",
+      "name": "Seated Dumbbell Shoulder Press",
+      "muscle": "Shoulders",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_arnold_press",
+      "name": "Arnold Press",
+      "muscle": "Shoulders",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_lateral_raise",
+      "name": "Lateral Raise",
+      "muscle": "Shoulders",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_cable_lateral_raise",
+      "name": "Cable Lateral Raise",
+      "muscle": "Shoulders",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_front_raise",
+      "name": "Front Raise",
+      "muscle": "Shoulders",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_rear_delt_fly",
+      "name": "Rear Delt Fly",
+      "muscle": "Shoulders",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_upright_row",
+      "name": "Upright Row",
+      "muscle": "Shoulders",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_barbell_curl",
+      "name": "Barbell Curl",
+      "muscle": "Biceps",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_dumbbell_curl",
+      "name": "Dumbbell Curl",
+      "muscle": "Biceps",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_hammer_curl",
+      "name": "Hammer Curl",
+      "muscle": "Biceps",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_preacher_curl",
+      "name": "Preacher Curl",
+      "muscle": "Biceps",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_cable_curl",
+      "name": "Cable Curl",
+      "muscle": "Biceps",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_incline_dumbbell_curl",
+      "name": "Incline Dumbbell Curl",
+      "muscle": "Biceps",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_tricep_pushdown",
+      "name": "Tricep Pushdown",
+      "muscle": "Triceps",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_rope_pushdown",
+      "name": "Rope Pushdown",
+      "muscle": "Triceps",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_overhead_tricep_extension",
+      "name": "Overhead Tricep Extension",
+      "muscle": "Triceps",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_skullcrusher",
+      "name": "Skullcrusher",
+      "muscle": "Triceps",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_close_grip_bench_press",
+      "name": "Close-Grip Bench Press",
+      "muscle": "Triceps",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_tricep_dip",
+      "name": "Tricep Dip",
+      "muscle": "Triceps",
+      "equipment": "Bodyweight",
+      "seed": true
+    },
+    {
+      "id": "x_back_squat",
+      "name": "Back Squat",
+      "muscle": "Quads",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_front_squat",
+      "name": "Front Squat",
+      "muscle": "Quads",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_leg_press",
+      "name": "Leg Press",
+      "muscle": "Quads",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_hack_squat",
+      "name": "Hack Squat",
+      "muscle": "Quads",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_leg_extension",
+      "name": "Leg Extension",
+      "muscle": "Quads",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_bulgarian_split_squat",
+      "name": "Bulgarian Split Squat",
+      "muscle": "Quads",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_walking_lunge",
+      "name": "Walking Lunge",
+      "muscle": "Quads",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_goblet_squat",
+      "name": "Goblet Squat",
+      "muscle": "Quads",
+      "equipment": "Dumbbell",
+      "seed": true
+    },
+    {
+      "id": "x_romanian_deadlift",
+      "name": "Romanian Deadlift",
+      "muscle": "Hamstrings",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_lying_leg_curl",
+      "name": "Lying Leg Curl",
+      "muscle": "Hamstrings",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_seated_leg_curl",
+      "name": "Seated Leg Curl",
+      "muscle": "Hamstrings",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_good_morning",
+      "name": "Good Morning",
+      "muscle": "Hamstrings",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_hip_thrust",
+      "name": "Hip Thrust",
+      "muscle": "Glutes",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_glute_bridge",
+      "name": "Glute Bridge",
+      "muscle": "Glutes",
+      "equipment": "Barbell",
+      "seed": true
+    },
+    {
+      "id": "x_cable_pull_through",
+      "name": "Cable Pull-Through",
+      "muscle": "Glutes",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_standing_calf_raise",
+      "name": "Standing Calf Raise",
+      "muscle": "Calves",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_seated_calf_raise",
+      "name": "Seated Calf Raise",
+      "muscle": "Calves",
+      "equipment": "Machine",
+      "seed": true
+    },
+    {
+      "id": "x_plank",
+      "name": "Plank",
+      "muscle": "Core",
+      "equipment": "Bodyweight",
+      "seed": true
+    },
+    {
+      "id": "x_hanging_leg_raise",
+      "name": "Hanging Leg Raise",
+      "muscle": "Core",
+      "equipment": "Bodyweight",
+      "seed": true
+    },
+    {
+      "id": "x_cable_crunch",
+      "name": "Cable Crunch",
+      "muscle": "Core",
+      "equipment": "Cable",
+      "seed": true
+    },
+    {
+      "id": "x_ab_wheel_rollout",
+      "name": "Ab Wheel Rollout",
+      "muscle": "Core",
+      "equipment": "Bodyweight",
+      "seed": true
+    },
+    {
+      "id": "x_russian_twist",
+      "name": "Russian Twist",
+      "muscle": "Core",
+      "equipment": "Bodyweight",
+      "seed": true
+    }
+  ],
+  "routines": [
+    {
+      "id": "mpxa2zcea8nja",
+      "name": "Push Day",
+      "createdAt": 1780443487598,
+      "exercises": [
+        {
+          "exId": "x_barbell_bench_press",
+          "sets": 4
+        },
+        {
+          "exId": "x_overhead_press",
+          "sets": 3
+        },
+        {
+          "exId": "x_incline_dumbbell_press",
+          "sets": 3
+        },
+        {
+          "exId": "x_lateral_raise",
+          "sets": 3
+        },
+        {
+          "exId": "x_tricep_pushdown",
+          "sets": 3
+        },
+        {
+          "exId": "x_overhead_tricep_extension",
+          "sets": 3
+        }
+      ]
+    },
+    {
+      "id": "mpxa2zce121au",
+      "name": "Pull Day",
+      "createdAt": 1780443487598,
+      "exercises": [
+        {
+          "exId": "x_barbell_row",
+          "sets": 4
+        },
+        {
+          "exId": "x_pull_up",
+          "sets": 3
+        },
+        {
+          "exId": "x_lat_pulldown",
+          "sets": 3
+        },
+        {
+          "exId": "x_seated_cable_row",
+          "sets": 3
+        },
+        {
+          "exId": "x_face_pull",
+          "sets": 3
+        },
+        {
+          "exId": "x_barbell_curl",
+          "sets": 3
+        },
+        {
+          "exId": "x_hammer_curl",
+          "sets": 3
+        }
+      ]
+    },
+    {
+      "id": "mpxa2zcem9zni",
+      "name": "Leg Day",
+      "createdAt": 1780443487598,
+      "exercises": [
+        {
+          "exId": "x_back_squat",
+          "sets": 4
+        },
+        {
+          "exId": "x_romanian_deadlift",
+          "sets": 3
+        },
+        {
+          "exId": "x_leg_press",
+          "sets": 3
+        },
+        {
+          "exId": "x_leg_extension",
+          "sets": 3
+        },
+        {
+          "exId": "x_lying_leg_curl",
+          "sets": 3
+        },
+        {
+          "exId": "x_standing_calf_raise",
+          "sets": 4
+        }
+      ]
+    }
+  ],
+  "workouts": [],
+  "active": null
+}
